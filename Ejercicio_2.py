@@ -1,6 +1,6 @@
 import numpy as np
 
-codigos = np.arange(10000, 16500)  
+codigos = np.arange(1, 6501)  
 nombres = np.array(["Estudiante" + str(i) for i in codigos])
 codigos_carrera = np.random.randint(1, 11, size=6500) 
 años_ingreso = np.random.randint(1980, 2025, size=6500)  
